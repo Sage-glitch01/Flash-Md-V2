@@ -11,7 +11,7 @@ const conf = {
   ANTICALL: process.env.ANTICALL || "off",
   ANTIPROMOTE: process.env.ANTIPROMOTE || "off",
   ANTIDEMOTE: process.env.ANTIDEMOTE || "off",
-  ANTILINK: process.env.ANTILINK || "off",
+  ANTILINK: process.env.ANTILINK || "on",
   ANTILINK_ACTION: process.env.ANTILINK_ACTION || "delete",
   timezone: process.env.TIME_ZONE || "Africa/Nairobi",
   PRESENCE_DM: process.env.DM_PRESENCE || "typing",
